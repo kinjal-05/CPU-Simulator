@@ -2,9 +2,6 @@
 
 ---
 
-<p align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/22/Intel_8085.jpg/250px-Intel_8085.jpg" alt="8085 Microprocessor" width="200"/>
-</p>
 
 ### 📌 **Overview**
 
