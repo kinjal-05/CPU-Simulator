@@ -36,7 +36,7 @@ Ensure you have the following installed:
 #### **Step 1: Clone the Repository**
 ```bash
 git clone https://github.com/your-username/8085-Simulator.git
-cd 8085-Simulator
+cd Simulator
 ```
 
 #### **Step 2: Compile the Project**
@@ -121,7 +121,7 @@ HLT
 ---
 
 ### 👨‍💻 **Contributors**
-📌 **Your Name** (*[@kinjal-05](https://github.com/kinjal-05)*)
+📌 (*[@kinjal-05](https://github.com/kinjal-05)*)
 
 ---
 
