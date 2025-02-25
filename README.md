@@ -2,7 +2,6 @@
 
 ---
 
-
 ### 📌 **Overview**
 
 This project is a **8085 microprocessor simulator** implemented in **C++**. It simulates the execution of **8085 assembly instructions**, allowing users to run programs and observe **register and memory changes**.
