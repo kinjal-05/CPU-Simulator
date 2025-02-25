@@ -41,16 +41,16 @@ cd 8085-Simulator
 
 #### **Step 2: Compile the Project**
 ```bash
-g++ -o simulator main.cpp -std=c++11
+g++ -o hello kinjal.cpp -std=c++11
 ```
 
 #### **Step 3: Run the Executable**
 ```bash
-./simulator
+./hello
 ```
 
 #### **Step 4: Input the 8085 Assembly Code**
-The simulator reads instructions from a file. Make sure to create an input file **(`program.txt`)** with valid 8085 assembly instructions.
+The simulator reads instructions from a file. Make sure to create an input file **(`test.asm`)** with valid 8085 assembly instructions.
 
 #### **Step 5: View Execution Output**
 The program will **simulate execution** and display **register/memory changes**.
@@ -59,15 +59,17 @@ The program will **simulate execution** and display **register/memory changes**.
 
 ### 📂 **Project Structure**
 ```plaintext
-8085-Simulator/
-│── main.cpp            # Main execution file
-│── execute.cpp         # Instruction execution logic
-│── instructions.h      # Supported instruction sets
-│── registers.h         # Register and flag definitions
-│── memory.h            # Memory management
-│── utils.h             # Utility functions (trim, conversions, etc.)
-│── program.txt         # Sample 8085 assembly input file
-│── README.md           # Project documentation
+SIMULATOR/
+│── .vscode/               # VS Code configuration files
+│   ├── c_cpp_properties.json
+│   ├── launch.json
+│   ├── settings.json
+│── hello.exe              # Sample compiled executable
+│── kinjal.cpp             # Main execution file
+│── kinjal.exe             # Compiled executable
+│── test.asm               # Sample 8085 assembly input file
+│── test.txt               # Output / log file
+│── README.md              # Project documentation
 ```
 
 ---
@@ -85,7 +87,7 @@ The program will **simulate execution** and display **register/memory changes**.
 
 ---
 
-### 📝 **Example Program (`program.txt`)**
+### 📝 **Example Program (`test.asm`)**
 ```assembly
 MVI A, 25H
 MOV B, A
@@ -119,7 +121,7 @@ HLT
 ---
 
 ### 👨‍💻 **Contributors**
-📌 **Your Name** (*[@your-username](https://github.com/your-username)*)
+📌 **Your Name** (*[@kinjal-05](https://github.com/kinjal-05)*)
 
 ---
 
